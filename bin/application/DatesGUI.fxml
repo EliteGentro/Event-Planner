@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.DatesController">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Images/background5.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="250.0" layoutY="30.0" text="Tablero de Fechas" textFill="WHITE">
+         <font>
+            <Font name="Franklin Gothic Demi Cond" size="47.0" />
+         </font>
+      </Label>
+      <TableView fx:id="name" layoutX="17.0" layoutY="200.0" prefHeight="324.0" prefWidth="766.0">
+         <columns>
+            <TableColumn fx:id="eventsColumn" prefWidth="383.0" text="Evento" />
+            <TableColumn fx:id="dateColumn" prefWidth="383.0" text="Fecha" />
+         </columns>
+      </TableView>
+      <Text layoutX="29.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Buscar Evento Existente:">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Text>
+      <TextField fx:id="searchField" layoutX="25.0" layoutY="144.0" prefHeight="31.0" prefWidth="213.0" promptText="Escriba el Nombre del Evento" />
+      <Button fx:id="searchButton" layoutX="253.0" layoutY="147.0" mnemonicParsing="false" onAction="#Search" text="Buscar" />
+      <Button fx:id="backButton" layoutX="361.0" layoutY="544.0" mnemonicParsing="false" onAction="#GoBack" text="Regresar" />
+   </children>
+</AnchorPane>

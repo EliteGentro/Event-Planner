@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.SecondController">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Images/background2.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="33.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Crear Nuevo Evento:">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Text>
+      <Button fx:id="openButton" layoutX="476.0" layoutY="521.0" mnemonicParsing="false" onAction="#goEditar" text="Abrir" />
+      <TextField fx:id="nameField" layoutX="33.0" layoutY="161.0" prefHeight="31.0" prefWidth="213.0" promptText="Escriba el Nombre del Evento" />
+      <Label layoutX="234.0" layoutY="30.0" text="Tablero de Eventos" textFill="WHITE">
+         <font>
+            <Font name="Franklin Gothic Demi Cond" size="47.0" />
+         </font>
+      </Label>
+      <Button fx:id="createButton" layoutX="261.0" layoutY="164.0" mnemonicParsing="false" onAction="#CreateFile" text="Crear" />
+      <Button fx:id="renameButton" layoutX="112.0" layoutY="521.0" mnemonicParsing="false" onAction="#goRename" text="Renombrar" />
+      <TableView fx:id="name" layoutX="18.0" layoutY="300.0" prefHeight="200.0" prefWidth="766.0">
+        <columns>
+          <TableColumn fx:id="eventsColumn" prefWidth="765.0" sortable="false" text="Lista de Eventos" />
+        </columns>
+      </TableView>
+      <Text fill="WHITE" layoutX="33.0" layoutY="227.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Buscar Evento Existente:">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Text>
+      <TextField fx:id="searchField" layoutX="33.0" layoutY="251.0" prefHeight="31.0" prefWidth="213.0" promptText="Escriba el Nombre del Evento" />
+      <Button fx:id="searchButton" layoutX="261.0" layoutY="254.0" mnemonicParsing="false" onAction="#Search" text="Buscar" />
+      <Button fx:id="exportButton" layoutX="241.0" layoutY="521.0" mnemonicParsing="false" onAction="#ExportFile" text="Exportar" />
+      <Button fx:id="importButton" layoutX="361.0" layoutY="521.0" mnemonicParsing="false" onAction="#ImportFile" text="Importar" />
+      <Button fx:id="deleteButton" layoutX="567.0" layoutY="521.0" mnemonicParsing="false" onAction="#DeleteFile" text="Borrar" />
+      <Button fx:id="datesButton" layoutX="546.0" layoutY="174.0" mnemonicParsing="false" onAction="#goDates" prefHeight="97.0" prefWidth="163.0" text="Administrar Fechas" wrapText="true" />
+   </children>
+</AnchorPane>

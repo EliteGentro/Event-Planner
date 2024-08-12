@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.VideosController">
+   <children>
+      <Label layoutX="97.0" layoutY="20.0" text="Video Tutoriales">
+         <font>
+            <Font name="System Bold" size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="193.0" layoutY="108.0" text="Lorem Ipsum Dolor">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="84.0" layoutY="763.0" text="If there are any other questions, contact Mr.X at mrx@mail.com" />
+      <Button fx:id="video1" layoutX="214.0" layoutY="143.0" mnemonicParsing="false" onAction="#Video" text="Ver Video" />
+      <Button fx:id="video2" layoutX="214.0" layoutY="235.0" mnemonicParsing="false" onAction="#Video" text="Ver Video" />
+      <Label layoutX="194.0" layoutY="199.0" text="Lorem Ipsum Dolor">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="195.0" layoutY="374.0" text="Lorem Ipsum Dolor">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Button fx:id="video4" layoutX="216.0" layoutY="409.0" mnemonicParsing="false" onAction="#Video" text="Ver Video" />
+      <Button fx:id="video3" layoutX="215.0" layoutY="318.0" mnemonicParsing="false" onAction="#Video" text="Ver Video" />
+      <Label layoutX="194.0" layoutY="283.0" text="Lorem Ipsum Dolor">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="193.0" layoutY="552.0" text="Lorem Ipsum Dolor">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Button fx:id="video5" layoutX="214.0" layoutY="587.0" mnemonicParsing="false" onAction="#Video" text="Ver Video" />
+      <Button fx:id="video5" layoutX="215.0" layoutY="678.0" mnemonicParsing="false" onAction="#Video" text="Ver Video" />
+      <Label layoutX="194.0" layoutY="643.0" text="Lorem Ipsum Dolor">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="193.0" layoutY="468.0" text="Lorem Ipsum Dolor">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Button fx:id="video5" layoutX="214.0" layoutY="503.0" mnemonicParsing="false" onAction="#Video" text="Ver Video" />
+   </children>
+</AnchorPane>

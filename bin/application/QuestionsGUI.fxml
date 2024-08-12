@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.QuestionsController">
+   <children>
+      <Label layoutX="48.0" layoutY="21.0" text="Preguntas Frecuentes">
+         <font>
+            <Font name="System Bold" size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="48.0" layoutY="108.0" text="¿Lorem Ipsum Dolor?">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="48.0" layoutY="125.0" prefHeight="58.0" prefWidth="404.0" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id pretium ante, vitae aliquam enim. Phasellus sit amet mauris sagittis, vehicula justo sed, rutrum erat. " textOverrun="CLIP" wrapText="true" />
+      <Label layoutX="48.0" layoutY="207.0" prefHeight="58.0" prefWidth="404.0" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id pretium ante, vitae aliquam enim. Phasellus sit amet mauris sagittis, vehicula justo sed, rutrum erat. " textOverrun="CLIP" wrapText="true" />
+      <Label layoutX="48.0" layoutY="190.0" text="¿Lorem Ipsum Dolor?">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="48.0" layoutY="283.0" text="¿Lorem Ipsum Dolor?">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="48.0" layoutY="300.0" prefHeight="58.0" prefWidth="404.0" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id pretium ante, vitae aliquam enim. Phasellus sit amet mauris sagittis, vehicula justo sed, rutrum erat. " textOverrun="CLIP" wrapText="true" />
+      <Label layoutX="48.0" layoutY="399.0" prefHeight="58.0" prefWidth="404.0" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id pretium ante, vitae aliquam enim. Phasellus sit amet mauris sagittis, vehicula justo sed, rutrum erat. " textOverrun="CLIP" wrapText="true" />
+      <Label layoutX="48.0" layoutY="382.0" text="¿Lorem Ipsum Dolor?">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="48.0" layoutY="477.0" text="¿Lorem Ipsum Dolor?">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="48.0" layoutY="494.0" prefHeight="58.0" prefWidth="404.0" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id pretium ante, vitae aliquam enim. Phasellus sit amet mauris sagittis, vehicula justo sed, rutrum erat. " textOverrun="CLIP" wrapText="true" />
+      <Label layoutX="48.0" layoutY="592.0" prefHeight="58.0" prefWidth="404.0" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id pretium ante, vitae aliquam enim. Phasellus sit amet mauris sagittis, vehicula justo sed, rutrum erat. " textOverrun="CLIP" wrapText="true" />
+      <Label layoutX="48.0" layoutY="575.0" text="¿Lorem Ipsum Dolor?">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="48.0" layoutY="671.0" text="¿Lorem Ipsum Dolor?">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="48.0" layoutY="688.0" prefHeight="58.0" prefWidth="404.0" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id pretium ante, vitae aliquam enim. Phasellus sit amet mauris sagittis, vehicula justo sed, rutrum erat. " textOverrun="CLIP" wrapText="true" />
+      <Label layoutX="83.0" layoutY="769.0" text="If there are any other questions, contact Mr.X at mrx@mail.com" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.EditController">
+   <children>
+      <ImageView fitHeight="800.0" fitWidth="800.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Images/background2.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="101.0" layoutY="24.0" text="Hora" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="backButton" layoutX="295.0" layoutY="739.0" mnemonicParsing="false" onAction="#goBack" text="Cerrar" />
+      <Button fx:id="saveButton" layoutX="414.0" layoutY="738.0" mnemonicParsing="false" onAction="#Save" text="Guardar" />
+      <Label layoutX="101.0" layoutY="109.0" text="Lugar" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="101.0" layoutY="198.0" text="Actividad" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="101.0" layoutY="285.0" text="Planta Física" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="101.0" layoutY="374.0" text="Salones" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="101.0" layoutY="462.0" text="TI" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="101.0" layoutY="549.0" text="Seguridad" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="hourField" layoutX="319.0" layoutY="14.0" prefHeight="60.0" prefWidth="380.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="placeField" layoutX="319.0" layoutY="99.0" prefHeight="60.0" prefWidth="380.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="activityField" layoutX="319.0" layoutY="188.0" prefHeight="60.0" prefWidth="380.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="physicalField" layoutX="319.0" layoutY="275.0" prefHeight="60.0" prefWidth="380.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="classroomsField" layoutX="319.0" layoutY="364.0" prefHeight="60.0" prefWidth="380.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tiField" layoutX="319.0" layoutY="452.0" prefHeight="60.0" prefWidth="380.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="securityField" layoutX="319.0" layoutY="539.0" prefHeight="60.0" prefWidth="380.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="commentaryField" layoutX="319.0" layoutY="622.0" prefHeight="60.0" prefWidth="380.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </TextField>
+      <Label layoutX="101.0" layoutY="632.0" text="Comentarios" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="319.0" layoutY="77.0" text="Ej. 9:00 PM, 21:00, 6:30 AM" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="319.0" layoutY="163.0" text="Ej. Arena Borregos, Canchas de Soccwer, Sala Life " textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="319.0" layoutY="249.0" text="Ej. Inauguración, Clausura, Invitado " textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="319.0" layoutY="336.0" text="Ej. Mesas, Sillas, Luces" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="319.0" layoutY="423.0" text="Ej. 1201, 2102, Salón VR, Music Room" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="319.0" layoutY="511.0" text="Ej. Apple TV, Adaptador de Mac " textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="319.0" layoutY="599.0" text="Ej. Entrada de alumnos de las 5 prepas " textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="319.0" layoutY="688.0" text="Ej. Se usará pintura, Música con alto volumen" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

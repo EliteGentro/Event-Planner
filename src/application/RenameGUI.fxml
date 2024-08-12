@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.RenameController">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="808.0" layoutX="-1.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Images/background3.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="nameField" layoutX="271.0" layoutY="264.0" prefHeight="54.0" prefWidth="265.0" promptText="Escriba el Nuevo Nombre del Archivo" />
+      <Label layoutX="207.0" layoutY="28.0" text="Renombrar Archivo" textFill="WHITE">
+         <font>
+            <Font name="Franklin Gothic Demi Cond" size="64.0" />
+         </font>
+      </Label>
+      <Button fx:id="renameButton" layoutX="361.0" layoutY="441.0" mnemonicParsing="false" onAction="#RenameFile" text="Renombrar" />
+   </children>
+</AnchorPane>
